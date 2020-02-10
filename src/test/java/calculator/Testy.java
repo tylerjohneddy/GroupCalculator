@@ -24,4 +24,9 @@ public class Testy {
 			assertEquals(i, calculator.sqrt(i * i), 0.0001);
 		}
 	}
+
+	public void testModulus() {
+		assertEquals(0, calculator.modulus(20,5)0.002);
+		assertEquals(5, calculator.modulus(25,10)0.002);
+	}
 }
