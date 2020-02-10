@@ -1,10 +1,6 @@
 package calculator;
 
 public class Calculator {
-	public  Subtract(double x, double y){
-		
-	}
-
 	public double sqrt(double num1) {
 
 		double result = Math.sqrt(num1);
@@ -17,8 +13,9 @@ public class Calculator {
 	}
 	
 	
-	public divide(double x,double y) {
-		if (y == 0) {
+	public double divide(double x,double y) {
+		
+		if (y == 0.0) {
 			return 0;
 		}else {
 			return x/y;
