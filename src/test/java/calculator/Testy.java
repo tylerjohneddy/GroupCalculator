@@ -23,6 +23,7 @@ public class Testy {
 		for (int i = 0; i < 100; i++) {
 			assertEquals(i, calculator.sqrt(i * i), 0.0001);
 		}
+		}
 		
 	@Test 
 	public void divideTest() {
