@@ -5,6 +5,8 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class Testy {
+	private Calculator calculator = new Calculator();
+
 	@Test
 	public void subtractTest() {
 		Calculator calc = new Calculator();
@@ -16,7 +18,6 @@ public class Testy {
 
 	}
 
-	private Calculator calculator = new Calculator();
 
 	@Test
 	public void testSqrt() {
