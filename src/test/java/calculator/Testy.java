@@ -18,9 +18,11 @@ public class Testy {
 
 	}
 
+
 	@Test
 	public void testSqrt() {
 		for (int i = 0; i < 100; i++) {
-			assertEquals(i,calculator.sqrt(i*i),0.0001);
+			assertEquals(i, calculator.sqrt(i * i), 0.0001);
 		}
 	}
+}
