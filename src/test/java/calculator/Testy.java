@@ -23,5 +23,13 @@ public class Testy {
 		for (int i = 0; i < 100; i++) {
 			assertEquals(i, calculator.sqrt(i * i), 0.0001);
 		}
+
+	}
+	@Test
+	public void testDivide() {
+		assertEquals(10, calculator.divide(100, 10), 0.002);
+		assertEquals(0, calculator.divide(100, 0), 0.002);
+		assertEquals(-2, calculator.divide(-90, 45), 0.002);
+		
 	}
 }
