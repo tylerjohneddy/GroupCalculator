@@ -1,6 +1,19 @@
 package calculator;
 
 public class Calculator {
+
+	
+	
+	public double modulus(double num1, double num2) {
+
+	
+	double result =num1 % num2;
+	
+	return result;
+
+	}
+		
+
 	
 	public double multiply(double a, double b) {
 		  return a * b;
@@ -9,6 +22,7 @@ public class Calculator {
 	public double add(double num1, double num2){
 		return num1+num2;
 	
+
 	}
 
 	public double sqrt(double num1) {
@@ -30,5 +44,8 @@ public class Calculator {
 		}else {
 			return x/y;
 		}
+
 	}
 }
+
+
