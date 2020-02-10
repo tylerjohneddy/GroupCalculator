@@ -34,7 +34,7 @@ public class Testy {
 	}
 
 	public void testModulus() {
-		assertEquals(0, calculator.modulus(20,5)0.002);
-		assertEquals(5, calculator.modulus(25,10)0.002);
+		assertEquals(0, calculator.modulus(20,5),0.002);
+		assertEquals(5, calculator.modulus(25,10),0.002);
 	}
 }
