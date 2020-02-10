@@ -1,8 +1,9 @@
 package calculator;
 
 public class Calculator {
-	public  Subtract(double x, double y){
-		
+	public double add(double num1, double num2){
+		return num1+num2;
+	
 	}
 
 	public double sqrt(double num1) {
