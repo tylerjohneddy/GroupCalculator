@@ -32,4 +32,9 @@ public class Testy {
 		assertEquals(-2, calculator.divide(-90, 45), 0.002);
 		
 	}
+
+	public void testModulus() {
+		assertEquals(0, calculator.modulus(20,5)0.002);
+		assertEquals(5, calculator.modulus(25,10)0.002);
+	}
 }
